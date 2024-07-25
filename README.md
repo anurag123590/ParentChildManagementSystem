@@ -168,31 +168,17 @@ parent-child-management-app/
 │   ├── email.py
 │   ├── routes/
 │   │   ├── __init__.py
-│   │   ├── parent.py
-│   │   ├── child.py
-│   ├── db/
-│   │   ├── __init__.py
-│   │   ├── base.py
-│   │   ├── session.py
-│   ├── core/
-│       ├── config.py
-│       ├── security.py
-│
-├── alembic/
+│   ├── uploads
+│   ├── config.py
+│   ├── security.py
+    ├── alembic/
 │   ├── versions/
 │   ├── env.py
-│   ├── script.py.mako
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_parent.py
-│   ├── test_child.py
-│
-├── Dockerfile
-├── requirements.txt
-├── README.md
-├── .env
-└── .gitignore
+│   ├── unitTest.py
+|   ├── requirements.txt
+|   ├── README.md
+|   ├── .env
+|   └── .gitignore
 ```
 
 ### Important Files
@@ -203,6 +189,6 @@ parent-child-management-app/
 - **`crud.py`**: CRUD operations for database interactions.
 - **`email.py`**: Functions for sending emails.
 - **`config.py`**: Configuration settings.
-- **`test_parent.py`** and **`test_child.py`**: Unit tests for the application.
+- **`unitTest.py`**: Unit tests for the application.
 
 By following these instructions, you should be able to set up and run the Parent-Child Management Application. Make sure to review and update the configurations as needed for your specific environment and requirements.
